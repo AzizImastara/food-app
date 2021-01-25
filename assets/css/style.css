@@ -46,6 +46,9 @@ body{
 .two .lead{
     margin-bottom: 30px;
 }
+.two .lead--2{
+    display: none;
+}
 
 
 /* Button */
@@ -79,6 +82,15 @@ body{
     color: #fff;
     font-weight: 700;
     padding: 5px 30px;
+}
+.two .try{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 30px;
+    display: none;
 }
 
 /* Icon */
@@ -276,11 +288,21 @@ body{
         color: #fff;
     }
     .two .jumbotron .lead{
+        display: none;
+    }
+    .two .jumbotron .lead--2{
+        display: inline-block;
         color: #BDBDBD;
+        font-weight: 500;
+        font-size: 24px;
     }
     .two .appstore{
+        display: none;
+    }
+    .two .try{
         color: #fff;
         border: 1px solid #fff;
+        display: inline-block;
     }
 
     .picture{
@@ -352,11 +374,21 @@ body{
         color: #fff;
     }
     .two .jumbotron .lead{
+        display: none;
+    }
+    .two .jumbotron .lead--2{
+        display: inline-block;
         color: #BDBDBD;
+        font-size: 24px;
+        font-weight: 500;
     }
     .two .appstore{
+        display: none;
+    }
+    .two .try{
         color: #fff;
         border: 1px solid #fff;
+        display: inline-block;
     }
 
     .picture{
