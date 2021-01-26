@@ -106,24 +106,31 @@ body{
 }
 
 /* App-1 */
-.app-1 h4{
-    margin-top: 300px;
+.app-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: -100px;
+}
+.app-1--v1{
+    margin-top: 280px;
+}
+.app-1--v1 h4{
     color: #FA4A0C;
     font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 24px;    
 }
-.app-1 h1{
+.app-1--v1 h1{
     color: #252B42;
-    font-weight: 700;
     font-size: 40px;
-    margin-bottom: 20px;
+    font-weight: 700;
 }
-.app-1 p{
+.app-1--v1 p{
     color: #737373;
     font-weight: 500;
     font-size: 24px;
 }
+
 
 /* App-2 */
 .app-2{
@@ -207,9 +214,6 @@ body{
     
     .picture{
         margin-top: -350px;
-    }
-    .app-1 img{
-        margin-right: 180px;
     }
 
     .two .jumbotron{
@@ -310,9 +314,12 @@ body{
     }
 
     .app-1{
+        flex-direction: column;
+    }
+    .app-1--v1{
         text-align: center;
     }
-    .app-1 img{
+    .app-1--v2 img{
         width: 100%;
     }
 
@@ -402,9 +409,12 @@ body{
     }
 
     .app-1{
+        flex-direction: column;
+    }
+    .app-1--v1{
         text-align: center;
     }
-    .app-1 img{
+    .app-1--v2 img{
         width: 100%;
     }
 
